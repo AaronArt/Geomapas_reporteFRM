@@ -1,0 +1,51 @@
+/*
+	Color fondo: #161112;
+	Color header: 246355;
+	Color borde: 0F362D;
+	Color iluminado: 369681;              width 600  margin 150  246355 #0F362D #369681
+*/
+body{
+	background-color: hsla(0, 6%, 7%, 0.938);
+	font-family: Arial;
+}
+
+#main-container{
+	margin: 10px auto;
+	width: -5px;
+}
+
+table{
+	background-color: white;
+	text-align: left;
+	border-collapse: collapse;
+	width: 55%;
+}
+
+th, td{
+	padding: 10px;
+}
+
+thead{
+	background-color: #530e0ee3;
+	border-bottom: solid 5px rgb(51, 14, 14);
+	color: white;
+}
+
+tr:nth-child(even){
+	background-color: #ddd;
+}
+
+tr:hover td{
+	background-color: #8f1919ab;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
