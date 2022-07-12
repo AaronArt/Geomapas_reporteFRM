@@ -184,7 +184,7 @@ format: 'image/png',
 transparent: true
 });
 
-var wms_FGS = L.tileLayer.wms('http://localhost:8082/geoserver/wms?service=WMS', 
+var wms_FGS = L.tileLayer.wms('https://wms.qgiscloud.com/Aaron_Art/PRUEBA_WMS/', 
 {
 layers: 'proyecto_final:fgs',
 attribution: 'Creditos de la capa',
@@ -193,9 +193,9 @@ transparent: true
 
 });
 
-var wms_FRM_amz = L.tileLayer.wms('http://localhost:8082/geoserver/wms?service=WMS', 
+var wms_FRM_amz = L.tileLayer.wms('https://wms.qgiscloud.com/Aaron_Art/PRUEBA_WMS/', 
 {
-layers: 'proyecto_final:amz_mm',
+layers: 'PRUEBA_WMS',
 attribution: 'Creditos de la capa',
 format: 'image/png',
 transparent: true
